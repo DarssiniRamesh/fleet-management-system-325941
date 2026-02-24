@@ -1,0 +1,4 @@
+{
+    "command": "SERVER_PORT=<port> SERVER_ADDRESS=<host> ./gradlew bootRun",
+    "working_directory": "/home/kavia/workspace/code-generation/fleet-management-system-325941/java_backend"
+}
