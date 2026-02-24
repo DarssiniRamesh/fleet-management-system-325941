@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
  *   <li>Conflicts return code=CONFLICT</li>
  * </ul>
  */
-@RestControllerAdvice
+@RestControllerAdvice(basePackages = "com.example.javabackend.api")
 public class GlobalExceptionHandler {
 
     private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
